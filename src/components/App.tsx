@@ -24,19 +24,14 @@ function App() {
     <>
       <h1 className='h1'>Jacob Jansson</h1>
       <div className="header">
-        <div className="top-right-box">
-          <a href="https://www.linkedin.com/in/jacob-jansson-81a5231b9/" target="_blank" rel="noopener noreferrer">
+        <button onClick={showAbout}>About</button>
+        <button onClick={showProjects}>Projects</button>
+        <a href="https://www.linkedin.com/in/jacob-jansson-81a5231b9/" target="_blank" rel="noopener noreferrer">
           <button><FaLinkedin/></button>
           </a>
           <a href="https://github.com/codejac95" target="_blank" rel="noopener noreferrer">
           <button><FaGithub/></button>
           </a>
-        </div>
-      </div>
-      <div className="header">
-        <button onClick={showAbout}>About</button>
-        <button onClick={showProjects}>Projects</button>
-        <button onClick={showCv}>CV</button>
       </div>
       <div className="content">
         {Page === "About" && <About />}
