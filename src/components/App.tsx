@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
 import About from "./About";
 import Projects from "./Projects";
 import Cv from './Cv';
 
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { useState } from "react";
 
 function App() {
   const [Page, setPage] = useState("");
@@ -14,10 +14,6 @@ function App() {
 
   function showProjects() {
     setPage("Projects");
-  }
-
-  function showCv() {
-    setPage("Cv");
   }
 
   return (
