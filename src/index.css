@@ -78,12 +78,6 @@ button:hover {
   align-items: center;
 }
 
-.top-right-box {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
 .content {
   right: 10px;
 }
@@ -187,16 +181,33 @@ a:hover {
   font-size: 1.2em;
 }
 
-/* Mobilanpassning */
 @media screen and (max-width: 768px) {
+  :root {
+    background-attachment: scroll; /* Stänger av fixed bakgrund på mobil för bättre prestanda */
+    background-size: auto 100%; /* Anpassar bakgrunden för att inte bli för suddig */
+  }
+
   .about {
-    flex-direction: column;  /* Gör så att texten och bilden staplas vertikalt på mindre skärmar */
+    flex-direction: column;  
     align-items: center;
-    text-align: center;  /* Centrerar texten på mobilen */
+    text-align: center; 
   }
 
   .me-img {
     width: 50%; /* Justera bildstorlek för mindre skärmar */
-    margin-top: 20px; /* Lägger till avstånd mellan texten och bilden */
+    margin-top: 20px;
+  ;/* Lägger till avstånd mellan texten och bilden */
+  }
+
+  .projects {
+    flex-direction: column;  
+    align-items: center;
+    text-align: center; 
+  }
+
+  .cv-container {
+    flex-direction: column;  
+    align-items: center;
+    text-align: center; 
   }
 }
