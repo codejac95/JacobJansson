@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-size:cover;
-  background-image: url("/background.jpg");
+  background-image: url("/Background.jpg");
 }
 
 body {
