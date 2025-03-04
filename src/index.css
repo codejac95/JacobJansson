@@ -9,7 +9,6 @@
 
 body {
   margin: 20px;
-  cursor: pointer;
 }
 
 .h1 {
@@ -21,33 +20,30 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.about {
-  text-align: left;
+.projects-container, 
+.about-container {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.2em;
-  line-height: 1.5;
-  color: rgb(0, 0, 0);
+  font-size: 1.3em;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  text-align: center;
 }
 
-.programming-languages {
-  display: flex;
-  font-size: 1.2em;
-  text-align: left;
-
+.projects-container p {
+  white-space: pre-line; 
+  max-width: 600px; 
+  line-height: 1.6;
 }
 
-.projects {
-  text-align: left;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.2em;
-  line-height: 1.5;
-  color: rgb(0, 0, 0);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.about-container p {
+  white-space: pre-line; 
+  max-width: 600px; 
+  line-height: 1.6; 
+}
+
+.video-container {
+  margin: 20px 0;
 }
 
 .me-img {
@@ -91,14 +87,10 @@ button:hover {
   color: #2c3e50;
 }
 
-.video-container {
-  margin-top: 15px;
-}
-
 .cv-container {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.2em;
-  margin: 40px auto;
+  margin: 0 auto;
   width: 80%;
   max-width: 900px;
 }
