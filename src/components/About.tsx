@@ -9,7 +9,7 @@ function About() {
         Among my various hobbies, I take pleasure in exercise, golfing, cooking delicious meals, and computer games.
         I genuinely hope you find this website intriguing. Should you have any inquiries, feel free to reach out to me via my LinkedIn.
       </p> 
-      <img src="/Me.jpg" className="image" />
+      <img src="/Me.png" className="image" />
       </>
     )
   }
