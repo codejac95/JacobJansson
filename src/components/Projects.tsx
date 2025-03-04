@@ -10,9 +10,8 @@ function Projects() {
 
         <div className="video-container">
         <video width="250" height="220" controls>
-          <source src="Car.mp4" type="video/mp4" />
+          <source src="Car.mp4"/>
         </video>
-        <img src="/arduinoInterface.jpg" className="arduinoImg" />
       </div>
  </>
     )

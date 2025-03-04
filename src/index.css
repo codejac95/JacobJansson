@@ -77,3 +77,12 @@ button:hover {
   right: 30%;
   border-radius: 20px;
 }
+
+.uiimage {
+  margin-left: 50%;
+  width: 15%;
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  border-radius: 20px;
+}
