@@ -183,7 +183,6 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   :root {
-    background-attachment: scroll; /* Stänger av fixed bakgrund på mobil för bättre prestanda */
     background-size: auto 100%; /* Anpassar bakgrunden för att inte bli för suddig */
   }
 
