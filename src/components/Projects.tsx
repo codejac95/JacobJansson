@@ -36,7 +36,8 @@ function Projects() {
           as I monitor the system's performance.<br/><br />
 
           Specs: Arduino UNO R4, HC-SR04 ultra sonic dual sensor, MB102 breadboard, DHT11 temperature & humidity sensor, 
-          FC-28 Soil Moisture Sensor, 5v relaymodule, 5v waterpump, watertank & waterhoses. <br /><br />
+          FC-28 Soil Moisture Sensor, 5v relaymodule, 5v waterpump, waterhoses & watercontainer (the lid is covered with soundproofing 
+          material so that sound waves from the HC-SR04 do not bounce). <br /><br />
 
           (Project is not ready yet, pictures will be coming shortly)
 
