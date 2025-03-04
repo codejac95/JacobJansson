@@ -3,7 +3,7 @@ function About() {
       <div className="about-container">
         <p>
           Hi!<br />
-          My name is Jacob, and I'm currently a student at Värnamo Campus, orientation Java-development. 
+          My name is Jacob, and I'm currently a student at Värnamo Campus, orientation Java-development.
           Personally, I consider myself a logical and curious individual, always seeking out fresh and
           innovative solutions to problems. I find backend development to be the most challenging and
           enjoyable aspect of my work, and I aspire to further refine my skills in that domain.
