@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-size: cover;
-  background-image: url("/BG.png");
+  background-image: url("/Bg.jpg");
   background-attachment: fixed;
 }
 
@@ -182,9 +182,7 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  :root {
-    background-size: auto 100%; /* Anpassar bakgrunden för att inte bli för suddig */
-  }
+ 
 
   .about {
     flex-direction: column;  
@@ -193,9 +191,8 @@ a:hover {
   }
 
   .me-img {
-    width: 50%; /* Justera bildstorlek för mindre skärmar */
+    width: 50%; 
     margin-top: 20px;
-  ;/* Lägger till avstånd mellan texten och bilden */
   }
 
   .projects {
