@@ -1,7 +1,9 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-size: cover;
   background-image: url("/Bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -182,10 +184,11 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  
+
   :root {
-    background-attachment: scroll; /* Undviker problem med fixed på mobil */
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
   }
 
   .about {
