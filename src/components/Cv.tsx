@@ -20,7 +20,7 @@ function Cv() {
         </div>
         <div className="job">
           <h3>Service Electrician</h3>
-          <span>2021/10/04 - 2022/08/22</span>
+          <span>2021/10/04 - 2023/08/25</span>
           <p>Eltjänst i Vätterbygden AB - Worked as a service electrician in Jönköping.</p>
         </div>
       </section>
