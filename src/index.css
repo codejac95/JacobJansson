@@ -197,7 +197,7 @@ a:hover {
     margin-right: 5px;
   }
 
-  .about {
+  .about-container {
     flex-direction: column;  
   }
 
