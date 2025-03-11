@@ -32,7 +32,7 @@ function Cv() {
           <p>Jönköping University/Värnamo (In collaboration with Campus Värnamo)</p>
         </div>
         <div className="school">
-          <h3>El & Teknik</h3>
+          <h3>Electricity & Technology</h3>
           <p>Tingsholmsgymnasiet, Ulricehamn</p>
         </div>
       </section>
