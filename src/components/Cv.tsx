@@ -1,3 +1,5 @@
+import { CiMail } from "react-icons/ci";
+import { FaPhone } from 'react-icons/fa';
 function Cv() {
   return (
     <div className="cv-container">
@@ -5,8 +7,8 @@ function Cv() {
       <section className="contact-info">
         <h2>Contact Information</h2>
         <ul>
-          <li>Phone -0727069659</li>
-          <li>Mail -Jacob950422@gmail.com</li>
+          <li><FaPhone /> 0727069659</li>
+          <li><CiMail /> Jacob950422@gmail.com</li>
         </ul>
       </section>
 
