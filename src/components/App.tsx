@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { useState } from "react";
 
 function App() {
-  const [Page, setPage] = useState("");
+  const [Page, setPage] = useState("About");
 
   function showAbout() {
     setPage("About");
