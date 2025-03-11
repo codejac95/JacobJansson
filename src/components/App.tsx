@@ -7,6 +7,7 @@ import { useState } from "react";
 
 function App() {
   const [Page, setPage] = useState("");
+
   function showAbout() {
     setPage("About");
   }
