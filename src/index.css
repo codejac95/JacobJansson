@@ -38,12 +38,14 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.3em;
   display: flex;
+  flex-direction: row;
 }
 
 .about-container p {
   white-space: pre-line; 
   max-width: 600px; 
   line-height: 1.6; 
+  order: 0;
 }
 
 .video-container {
@@ -56,7 +58,8 @@ body {
   border-radius: 50px;
   margin-top: 50px;
   margin-right: 20px;
-  margin-left:50px;
+  margin-left: 50px;
+  order: 1; 
 }
 
 button {
@@ -83,7 +86,7 @@ button:hover {
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 1000; /* Ser till att headern ligger ovanför annat innehåll */
+  z-index: 1000;
 }
 .content {
   right: 10px;
@@ -196,13 +199,16 @@ a:hover {
 
   .about {
     flex-direction: column;  
-    align-items: center;
-    text-align: center; 
   }
 
   .me-img {
     width: 50%; 
     margin-top: 20px;
+    order: 1;
+  }
+
+  .about-container p {
+    order: 0;
   }
 
   .projects {

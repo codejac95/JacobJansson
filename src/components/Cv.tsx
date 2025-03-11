@@ -5,9 +5,8 @@ function Cv() {
       <section className="contact-info">
         <h2>Contact Information</h2>
         <ul>
-          <li>Stenroddargränd 1, 55330 Jönköping</li>
-          <li>0727069659</li>
-          <li>Jacob950422@gmail.com</li>
+          <li>Phone -0727069659</li>
+          <li>Mail -Jacob950422@gmail.com</li>
         </ul>
       </section>
 
