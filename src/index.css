@@ -196,6 +196,8 @@ a:hover {
 
   .about {
     flex-direction: column;  
+    align-items: center;
+    text-align: center; 
   }
 
   .me-img {
@@ -205,7 +207,8 @@ a:hover {
 
   .projects {
     flex-direction: column;  
-    
+    align-items: center;
+    text-align: center; 
   }
 
   .cv-container {
