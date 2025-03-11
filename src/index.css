@@ -19,8 +19,7 @@ body {
   color: #2c3e50;
 }
 
-.projects-container, 
-.about-container {
+.projects-container {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.3em;
   display: flex;
@@ -35,6 +34,12 @@ body {
   line-height: 1.6;
 }
 
+.about-container {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.3em;
+  display: flex;
+}
+
 .about-container p {
   white-space: pre-line; 
   max-width: 600px; 
@@ -47,8 +52,11 @@ body {
 
 .me-img {
   width: 15%;
-  border-radius: 20px;
+  height: 15%;
+  border-radius: 50px;
+  margin-top: 50px;
   margin-right: 20px;
+  margin-left:50px;
 }
 
 button {
