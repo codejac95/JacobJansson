@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <h1 className='h1'>Jacob Jansson</h1>
+      <h1 className='h1'>Jacob Jansson.</h1>
       <div className="header">
         <button onClick={showAbout}>About</button>
         <button onClick={showProjects}>Projects</button>
