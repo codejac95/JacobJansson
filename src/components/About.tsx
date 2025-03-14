@@ -11,7 +11,7 @@ function About() {
           I genuinely hope you find this website intriguing. Should you have any inquiries,
           feel free to reach out to me via my LinkedIn. And dont forget to check out my projects and GitHub!
         </p> 
-        <img src="Me.png" className="me-img" />
+        <img src="/pictures/Me.png" className="me-img" />
       </div>
     )
   }

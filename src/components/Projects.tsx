@@ -18,7 +18,7 @@ function Projects() {
 
         <div className="video-container">
           <video width="250" height="220" controls>
-            <source src="Car.mp4" />
+            <source src="/pictures/Car.mp4" />
           </video>
         </div>
 
