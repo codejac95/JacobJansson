@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { MdConstruction } from "react-icons/md";
 
 function Projects() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -14,7 +15,8 @@ function Projects() {
   return (
     <div className="projects-container">
       <p>
-        [UNDER CONSTRUCTION] <br />
+      <MdConstruction/>  UNDER CONSTRUCTION  <MdConstruction/>  <br />
+
         My plan is to post some of my more creative projects here
       </p>
 
