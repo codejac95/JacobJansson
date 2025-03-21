@@ -52,7 +52,7 @@ function Projects() {
         FC-28 Soil Moisture Sensor, 5v relay module, 5v water pump, water hoses & water container (the lid is covered with soundproofing
         material so that sound waves from the HC-SR04 do not bounce). <br /><br />
 
-        (Project is not ready yet, pictures will be coming shortly)
+        (Project is not ready yet, more pictures will be coming shortly)
       </p>
       <a href="https://github.com/codejac95/PlantCare" target="_blank" rel="noopener noreferrer" className="underline-link">
         Code for PlantCare+

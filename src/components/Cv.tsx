@@ -8,7 +8,7 @@ function Cv() {
         <h2>Contact Information</h2>
         <ul>
           <li><FaPhone /> 0727069659</li>
-          <li><CiMail /> Jacob950422@gmail.com</li>
+          <li><CiMail /> jacob950422@gmail.com</li>
         </ul>
       </section>
 
